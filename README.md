@@ -1,10 +1,10 @@
-# 🧠 Sentiment Analysis Dashboard
+#  Sentiment Analysis Dashboard
 
 > An interactive NLP dashboard that compares **VADER**, **TextBlob**, and **DistilBERT** sentiment models on customer reviews — built with Streamlit and Plotly.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Details |
 |---|---|
@@ -17,7 +17,7 @@
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 sentiment-dashboard/
@@ -34,7 +34,7 @@ sentiment-dashboard/
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ### 1. Clone / download
 
@@ -69,7 +69,7 @@ The app downloads VADER and tokenizer data automatically on first run. No action
 
 ---
 
-## 🚀 Run
+##  Run
 
 ```bash
 streamlit run app.py
@@ -79,7 +79,7 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
-## 📊 How to Use
+##  How to Use
 
 ### Data Input
 - **Sample data** — click *Use sample data* in the sidebar. Loads 40 pre-labelled customer reviews.
@@ -98,13 +98,13 @@ Open **http://localhost:8501** in your browser.
 ### Tabs
 | Tab | What you see |
 |---|---|
-| 📋 Data Preview | Dataset stats, first 10 rows, column summary |
-| 📊 Analysis | KPI cards, charts, word clouds, per-row results table, CSV download |
-| ⚖️ Compare Models | Run all three models and compare label distributions and agreements |
+|  Data Preview | Dataset stats, first 10 rows, column summary |
+|  Analysis | KPI cards, charts, word clouds, per-row results table, CSV download |
+|  Compare Models | Run all three models and compare label distributions and agreements |
 
 ---
 
-## 🧪 Tech Stack
+##  Tech Stack
 
 | Layer | Library |
 |---|---|
@@ -118,7 +118,7 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - The DistilBERT model (`distilbert-base-uncased-finetuned-sst-2-english`) is downloaded from HuggingFace on first use (~270 MB). Subsequent runs use the local cache.
 - All models are cached for the Streamlit session — no redundant re-loading on re-runs.
@@ -126,6 +126,6 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
-## 📄 License
+##  License
 
 MIT — free to use, modify, and distribute.
