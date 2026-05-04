@@ -1,4 +1,4 @@
-#  Sentiment Analysis Dashboard
+# Sentiment Analysis Dashboard
 
 > An interactive NLP dashboard that compares **VADER**, **TextBlob**, and **DistilBERT** sentiment models on customer reviews — built with Streamlit and Plotly.
 
